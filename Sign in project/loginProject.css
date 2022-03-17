@@ -1,0 +1,104 @@
+:-ms-input-placeholder{
+    color:black;
+}
+
+body {background-color:rgb(255, 197, 91);
+
+}
+
+.main{
+    background-color:rgb(221, 154, 28);
+    width:400px;
+    height:400px;
+    margin: 7em auto;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.37);
+    
+}
+
+.sign{
+    padding-top:40px;
+    color:rgb(255, 238, 190);
+    font-weight: bold;
+    font-size: 30px;
+    font-family:"Varela Round"
+}
+
+
+
+
+.user{
+    
+    font-family:"Varela Round";
+    font-size: 100%;
+    margin-top: 10px;
+    width:60%;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:rgb(255, 223, 162);
+    border:none;
+    border-radius:10px;
+    border: 2px solid rgb(255, 244, 208);
+    outline: none;
+    text-align:center;
+    box-sizing: border-box;
+    
+}
+
+.pass{
+    
+    font-family:"Varela Round";
+    font-size: 100%;
+    margin-top: 30px;
+    width:60%;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:rgb(255, 223, 162);
+    border:none;
+    border-radius:10px;
+    border: 2px solid rgb(255, 244, 208);
+    outline: none;
+    text-align:center;
+    box-sizing: border-box;
+    
+}
+
+::placeholder{
+    color:rgb(0, 0, 0);
+}
+
+.user:focus, .pass:focus {
+    border-color: rgb(255, 216, 157);
+}
+
+
+.submit{
+    display: block;
+    border-radius:5px;
+    border:none;
+    border: 2px solid rgb(255, 244, 208);
+    padding: 5px 10px;
+    margin-top:15px;
+    background-color:rgb(255, 223, 162);
+    font-family:"Varela Round";
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.submit:hover{
+    background-color:rgb(255, 216, 157);
+}
+
+.forgot{
+    color: rgb(255, 244, 208);
+    margin-top:40px;
+    font-family:"Varela Round";
+    font-size:100%
+}
+
+a {
+    text-decoration:none;
+    color: rgb(255, 244, 208);
+}
